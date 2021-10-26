@@ -1,0 +1,16 @@
+//driver.findElement(By.xpath("//*[@id=\'ddate\']")).click();
+		
+		/*String date1 = driver.findElement(By.xpath("//*[@id=\'dvcalendar\']/div/div[1]/div/div[1]/div[2]")).getText();
+		String year1 = date1.substring(4);
+		String month1 = date1.substring(0,4);
+		
+		String date2 = driver.findElement(By.xpath("//*[@id=\'dvcalendar\']/div/div[2]/div/div[1]/div[2]")).getText();
+		String year2 = date2.substring(4);
+		String month2 = date2.substring(0,4);
+
+		System.out.println(year1 + " " + month1 + " " + year2 + " " + month2);
+	
+		WebElement date =  driver.findElement(By.xpath("//*[@id=\'fiv_1_25/10/2021\']"));
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click()", date);
+		*/
